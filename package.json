@@ -1,10 +1,20 @@
 {
   "name": "server-status",
-  "description": "Is my server alive ?",
   "version": "0.0.1",
-  "private": true,
+  "description": "Is my server alive ?",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "express": "4.x",
     "ping": "^0.1.8"
+  }
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leandrocp/server-status"
   }
 }
