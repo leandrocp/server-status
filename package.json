@@ -9,7 +9,7 @@
   "dependencies": {
     "express": "4.x",
     "ping": "^0.1.8"
-  }
+  },
   "engines": {
     "node": "0.10.x"
   },
